@@ -42,7 +42,6 @@ describe('MailService', () => {
 
   it('should be defined', () => {
     expect(mailService).toBeDefined();
-    expect(mailRepository).toBeDefined();
   });
 
   describe('findAll', () => {

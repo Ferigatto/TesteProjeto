@@ -18,9 +18,6 @@ export class MailEntity {
   @Column({ name: 'new_date', type: 'timestamp', nullable: false })
   newDate: string;
 
-  @Column({ name: 'new_date2', type: 'timestamp', nullable: false })
-  newDate2: string;
-
   @Column({ nullable: false })
   subject: string;
 
