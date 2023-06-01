@@ -15,9 +15,6 @@ export class MailEntity {
   @Column({ name: 'due_date', type: 'timestamp', nullable: false })
   dueDate: string;
 
-  @Column({ name: 'teste_Date', type: 'timestamp', nullable: false })
-  testeDate: string;
-
   @Column({ nullable: false })
   subject: string;
 
